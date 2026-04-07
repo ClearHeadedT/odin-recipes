@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+}
+
+.main-body {
+    background-color: rgba(146, 163, 255, 0.893);
+    width: 1000px;
+    height: 2000px;
+    display: inline-block;
+    border: 4px;
+    border-style: groove;
+}
+
+.container {
+    width: 700px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 4px rgb(red, green, rgb(9, 61, 106));
+    border-style: double;
+    background-color: rgba(26, 92, 136, 0.751);
+}
+
+#title-text {
+    font-family: monospace;
+    color: rgb(0, 0, 90);
+    text-align: center;
+    box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    margin: 10px auto;
+    margin-top: -100px;
+    padding: 25px;
+    border: 2px solid rgb(33, 0, 125);
+    background-color: rgb(49, 97, 155);
+}
